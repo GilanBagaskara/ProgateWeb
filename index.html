@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <link rel="stylesheet" href="./responsive.css" >
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <title>Progate Landing Page</title>
+</head>
+<body>
+    <!-------- Header -------->
+    <header>
+        <nav>
+            <div class="nav-logo">NINJA KEN</div>
+            <span class="fa fa-bars icon"></span>
+            <div class="nav-link">
+                <a href="#aboutme">Tentang Saya</a>
+                <a href="#proyek">Proyek Contoh</a>
+                <a href="#contact">Hubungi Saya</a>
+            </div>
+        </nav>
+    </header>
+    <!---------- Main --------->
+    <main>
+        <!------ Hero --------->
+        <section class="hero">
+            <h1>NINJA KEN.</h1>
+            <h2>MY PORTOFOLIO</h2>
+            <img src="./images/ninjaken.png" alt="ninjakenpic">
+        </section>
+        <!------- About Me ----->
+        <section class="aboutme" id="aboutme">
+            <h2>Tentang Saya</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                culpa qui officia deserunt mollit anim id est laborum.</p>
+        </section>
+        <!------- Proyek ------->
+        <section class="proyek" id="proyek">
+            <h2>Proyek Contoh</h2>
+            <div class="proyek-pict">
+                <div class="pict">
+                    <img src="./images/1.png" alt="proyek1">
+                    <p>Image 1</p>
+                </div>
+                <div class="pict">
+                    <img src="./images/2.png" alt="proyek2">
+                    <p>Image 2</p>
+                </div>
+                <div class="pict">
+                    <img src="./images/3.png" alt="proyek3">
+                    <p>Image 3</p>
+                </div>
+            </div>
+        </section>
+        <!-------- Contact Us ------->
+        <section class="contact" id="contact">
+            <h2>Hubungi Saya</h2>
+            <form>
+                <input type="email" id="email" placeholder="Email (Diperlukan)" class="email"><br>
+                <textarea placeholder="Message (Diperlukan)"></textarea><br>
+                <input type="submit" id="submit" value="Kirim" class="submit">
+            </form>
+        </section>
+        <!--------- Footer ---------->
+        <footer>
+            <div class="nav-logo foot">NINJA KEN</div>
+            <div class="footer-tools">
+                <a href="#aboutme">Tentang Saya</a>
+                <a href="#proyek">Proyek Contoh</a>
+                <a href="#contact">Hubungi Saya</a>
+            </div> 
+        </footer>
+    </main>
+</body>
+</html>

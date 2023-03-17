@@ -1,0 +1,45 @@
+@media (max-width:670px){
+    html{
+        font-size: 75%;
+    }
+
+    .hero h1{
+        font-size: 35px;
+    }
+
+    .hero h2{
+        font-size: 25px;
+    }
+
+    .aboutme{
+        padding: 10% 10%;
+    }
+
+    .contact{
+        padding: 10% 5%;
+    }
+
+    .email{
+        width: 80%;
+    }
+
+    .contact textarea{
+        width: 80%;
+    }
+
+    .submit{
+        width: 50%;
+    }
+
+    .nav-logo{
+        flex-grow: 1;
+    }
+    
+    .nav-link{
+        display: none;
+    }
+
+    .icon{
+        display: block !important;
+    }
+}
